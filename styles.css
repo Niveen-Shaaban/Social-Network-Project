@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Aside left */
+
+.left {
+    /* to be deleted - to see borders*/
+    margin: 40px;
+}
+
+.myProfile {
+    width: 25%;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    border-radius: 4px;
+}
+
+.myProfile h3 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.myProfile img {
+    width: 106px;
+    border-radius: 50%;
+}
+
+.profile_content {
+    border-top: 1px solid rgba(128, 128, 128, 0.166);
+    margin-top: 1.5rem;
+    width: 300px;
+}
+
+.profile_content i{
+    margin-right: 1rem;
+    color: #607d8b;
+}
+
+.profile_content p{
+    font-size: 15px;
+}
+
+
+
+
+/* Footer */
+
+.section3 {
+    color: white;
+}
+
+.fFirst {
+    background-color: #199de5;
+    padding: 14px;
+}
+
+.fFirst h5{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+
+.fSecond {
+    background-color: #076490;
+    padding: 0.15px 16px;    
+    font-size: 13px;
+}
+
+.fSecond p {
+    margin: 15px 0px;
+}
+.fSecond a {
+    color: white;
+}
