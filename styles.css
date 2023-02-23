@@ -1,0 +1,7 @@
+.Box{
+    border:solid grey 1px ;
+    border-radius: 5px;
+    height: 70px;
+    width: 300px;
+
+}
