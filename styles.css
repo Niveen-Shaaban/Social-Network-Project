@@ -1,7 +1,9 @@
 .Box{
     border:solid grey 1px ;
     border-radius: 5px;
-    height: 70px;
-    width: 300px;
-
+    height: 700px;
+    width: 900px;
+    padding: auto;
+    margin: 30px;
+    text-align: center;
 }
