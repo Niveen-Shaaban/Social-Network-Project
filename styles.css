@@ -1,9 +1,51 @@
-.Box{
-    border:solid grey 1px ;
+
+.myText{
+    width: 900px;
+    height:50px;
+    font-size: 26px;
+    color: lightgrey;
+    border: 1px solid lightgrey;
+    
+   
+}
+.container{
+    background-color:white;
+}
+.feed_box, .first_box{
+    border:solid lightgrey 2px ;
+    box-shadow: 3px 3px lightgrey;
     border-radius: 5px;
     height: 700px;
     width: 900px;
-    padding: auto;
     margin: 30px;
     text-align: center;
+    margin-left: 33.33%;
+    margin-top: 50px;
+    padding: 50px;
+    background-color:white;
+}
+.first_box{
+ height:110px;  
+}
+.first_box button{
+    height: 50px;
+    padding: 10px 25px 50px;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 17px;
+    margin-right: 770px;
+    background-color: blue;
+    border: solid blue 1px;
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.4s;  
+}
+.first_box button:hover{
+    background-color: lightgrey;
+    color: black;
+    border-color: lightgrey;
+}
+.fa-pencil{
+    display: block;
+    margin-bottom: 20%;
 }
