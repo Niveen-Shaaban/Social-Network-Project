@@ -8,7 +8,7 @@ body{
 .left {
     /* to be deleted - to see borders*/
     width: 25%;
-    /* padding: 2rem 4rem; */
+    padding: 2rem 4rem;
     font-size: 1rem;
 }
 
