@@ -1,0 +1,16 @@
+nav {
+  background-color: #199de5;
+}
+
+ul {
+  list-style: none;
+
+}
+
+li {
+  display: inline-block;
+}
+
+li:hover {
+  background-color: white;
+}
