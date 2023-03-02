@@ -1,16 +1,64 @@
-nav {
-  background-color: #199de5;
+body {
+    margin: 0px;
+    padding: 0px;
 }
 
-ul {
+header {
+    background-color: #199de5;
+    width: 100%;
+    position: fixed;
+}
+
+nav {
+    display: flex;
+}
+
+.home {
+    background-color: rgb(7, 99, 144);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.home:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+button {
+    border: none;
+}
+
+button span {
+    padding: 0.5rem;
+    ;
+}
+
+.other-buttons {
+    background-color: #199de5;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+.other-buttons:hover {
+    background-color: white;
+    color: black;
+}
+
+/* ul {
   list-style: none;
 
 }
 
-li {
+li, li p{
   display: inline-block;
 }
 
 li:hover {
   background-color: white;
 }
+
+#seytech {
+    display: flex;
+    justify-content: center;
+} */
