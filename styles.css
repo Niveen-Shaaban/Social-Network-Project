@@ -1,64 +1,155 @@
 body {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
 }
 
-header {
+/* Header */
+/* header {
     background-color: #199de5;
     width: 100%;
     position: fixed;
 }
-
-nav {
-    display: flex;
+header a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
 }
-
-.home {
+nav, .house-nav {
+    display: flex;
+    background-color: #199de5;
+    align-items: center;   
+}
+.house-nav {
     background-color: rgb(7, 99, 144);
     color: white;
-    display: flex;
-    align-items: center;
+    padding: 1rem;
+    margin-left: 0;
 }
-
-.home:hover {
+.house-nav:hover {
     background-color: lightgray;
     color: black;
 }
+.house-nav span {
+    margin: 0rem 1rem;
+}
+.icon-header {
+    padding: 1rem;
+}
+.icon-header:hover {
+    background-color: white;
+    color: black;
+} */
 
-button {
-    border: none;
+nav, .house-nav {
+  display: flex;
+  align-items: center;
 }
 
-button span {
-    padding: 0.5rem;
-    ;
+.house-nav span{
+  margin: 0rem 1rem;
 }
 
-.other-buttons {
-    background-color: #199de5;
-    color: white;
-    padding: 0.5rem 1rem;
+.house-nav{
+  background-color: rgb(7, 100, 144);
+  padding: 1rem;
+  margin-left: 0;
 }
 
-.other-buttons:hover {
+nav {
+  background-color: rgb(25, 157, 229);
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+
+}
+
+.house-nav:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+.icon-header{
+    padding: 1rem;
+}
+
+.icon-header:hover {
     background-color: white;
     color: black;
 }
 
-/* ul {
-  list-style: none;
-
+.right {
+  width: 15%;
+  padding: 2rem 4rem;
+  font-size: 1rem;
 }
 
-li, li p{
-  display: inline-block;
+.upcoming-events-container, .friend-request  {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+}
+.upcoming-events-container img {
+  /* width: 10rem; */
+  width:  90%;
+}
+.upcoming-events-container button {
+  /* width: 10rem; */
+  width: 90%;
+  border: none;
+  padding: 8px 16px;
+}
+.friend-request img {
+  width: 50%;
+  /* width: 5rem; */
+}
+.friend-request .buttons{
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: 1rem;
+}
+.buttons .accept, .buttons .decline {
+  flex-grow: 1;
+  border: none;
+}
+.accept {
+  background-color: #98cf98;
+}
+.decline {
+  background-color: #fb9289;
+}
+.accept:hover,
+.decline:hover {
+  background-color: lightgray;
+}
+.ads {
+  border: 1px solid red;
+  padding: 1rem;
+  text-align: center;
+}
+.bug {
+  border: 1px solid red;
+  text-align: center;
+  font-size: 2rem;
 }
 
-li:hover {
-  background-color: white;
-}
 
-#seytech {
+@media only screen and (max-width:600px) {
+  body{
     display: flex;
-    justify-content: center;
-} */
+
+  }
+  .right {
+    width:90%;
+    padding: 2rem;
+  }
+  
+
+
+} 
