@@ -31,7 +31,7 @@ main{
 }
 .feed_box,#feed_boxx, .first_box,#some-box{
     border:solid white 1px ;
-    box-shadow: 1px 1px 1px 3px #d6d6d5;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
     width: 55%;
     border-radius: 5px;
     /*margin-left: 33.33%;*/
