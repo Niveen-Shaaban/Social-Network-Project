@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+header {
+  position: fixed;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+nav, .house-nav {
+  display: flex;
+  align-items: center;
+}
+.house-nav span{
+  margin: 0rem 1rem;
+}
+.house-nav{
+  background-color: rgb(7, 100, 144);
+  padding: 1rem;
+  margin-left: 0;
+}
+nav {
+  background-color: rgb(25, 157, 229);
+}
+header a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+}
+.house-nav:hover {
+    background-color: lightgrey;
+    color: black;
+}
+.icon-header{
+    padding: 1rem;
+}
+.icon-header:hover {
+    background-color: white;
+    color: black;
+}
+.right {
+  width: 15%;
+  padding: 2rem 4rem;
+  font-size: 1rem;
+}
+.upcoming-events-container, .friend-request  {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+}
+.upcoming-events-container img {
+  /* width: 10rem; */
+  width:  90%;
+}
+.upcoming-events-container button {
+  /* width: 10rem; */
+  width: 90%;
+  border: none;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+}
+.upcoming-events-container button:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+.friend-request img {
+  width: 50%;
+  /* width: 5rem; */
+}
+.friend-request .buttons{
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: 1rem;
+}
+.buttons .accept, .buttons .decline {
+  flex-grow: 1;
+  border: none;
+}
+.accept {
+  background-color: #98cf98;
+}
+.decline {
+  background-color: #fb9289;
+}
+.accept:hover,
+.decline:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+.ads {
+  /* border: 1px solid red; */
+  padding: 1rem;
+  text-align: center;
+}
+.bug {
+  /* border: 1px solid red; */
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
+}
+.upcoming-events-container, .friend-request, .ads, .bug {
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  border-radius: 4px;
+}
+
+@media screen and (max-width:600px) {
+  body{
+    display: flex;
+
+  }
+  .right {
+    width: 90%;
+    padding: 2rem;
+  }
+  .icon-header{
+    display: none;
+  }
+  .friend-request .buttons{
+    flex-direction: column;
+  }
+  .friend-request button {
+    width: 100%;
+  }
+  .friend-request .accept {
+    margin-bottom: 2rem;
+  }
+} 
